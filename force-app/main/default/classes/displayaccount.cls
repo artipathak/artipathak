@@ -9,6 +9,8 @@ public class displayaccount {
          System.debug('artipathak');
          System.debug('artipathak');
          System.debug('artipathak');
+         System.debug('Eva Tiwari');
+         System.debug('Nitesh Tiwari');
         return new List<Account>([Select id,Name,Phone,Type from Account where Type!=null LIMIT 100]);
         
     }
